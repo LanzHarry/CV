@@ -1,0 +1,5 @@
+# ignore build dir for latex
+build_out 
+
+# protect phone and email from public cv/repo
+personal_info.sty 
