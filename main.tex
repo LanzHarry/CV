@@ -33,38 +33,30 @@
 \textbf{PhD:}
 
 \begin{itemize}
-  \item Designed and maintained end-to-end software systems in Python and \cpp supporting a custom MRI system, spanning data acquisition, processing, visualisation, and hardware control.
-  \item Developed data processing and image analysis pipelines in Python (NumPy, SciPy, PyTorch) and Matlab, handling large 3D imaging datasets.
-  \item Implemented hardware control and GUI software in \cpp to coordinate scanner motion via CANbus, including logging and safety checks.
+  \item Designed and maintained end-to-end, performance-critical software systems in Python and \cpp for a custom MRI platform, operating under real-time and hardware-safety constraints.
+  \item Implemented \cpp control software for motion and acquisition hardware using CANbus, including message parsing, state machines, error handling, and logging.
+  \item Built multi-stage data pipelines handling large binary datasets, with careful attention to memory usage, throughput, and reproducibility.
   \item Built interactive visualisation and segmentation tools to support non-technical users and downstream analysis.
-
 \end{itemize}
 
 \textbf{Master's project:}
 
 \begin{itemize}
-  \item Extended a large Fortran-based CFD codebase to support new numerical analysis methods for identifying chaotic turbulent flow regions.
+  \item Extended a large Fortran-based CFD codebase on Linux to implement new numerical methods for identifying chaotic regions in turbulent flow.
   \item Worked within an existing production codebase, adding functionality without breaking established workflows.
 \end{itemize}
 
 \textbf{Aeronautics high performance computing:}
 
 \begin{itemize}
-  \item Implemented a parallel \cpp solver for fluid dynamics simulations using domain decomposition and deployed it on a shared HPC cluster environment using MPI.
-\end{itemize}
-
-\textbf{Mindbridge:}
-
-\begin{itemize}
-  \item Developed a Python-based data ingestion tool to digitise handwritten questionnaire responses from scanned documents into a CSV.
-  \item Built a PyQt GUI workflow enabling human validation of ambiguous entries before export to CSV for downstream analysis.
+  \item Implemented a parallel \cpp fluid simulation solver using MPI, focusing on data decomposition, inter-process communication, and performance scaling on Linux HPC clusters.
 \end{itemize}
 
 \textbf{Personal Projects:}
 
 \begin{itemize}
-  \item ESP32 controlled smart lights and sonos speakers using \cpp and REST API (HUE lights api, sonos api, postman for testing and development, platformio vscode)
-  \item Raspberry pi projects home media server, vpn, personal dns, set up using docker, docker compose
+  \item Designed embedded \cpp applications on ESP32 involving networked device control over TCP/IP and REST interfaces; implemented request handling, state management, and failure recovery.
+  \item Built and operated Linux services on Raspberry Pi including VPN, DNS, and media servers, deployed using Docker and Docker Compose; configured networking, port forwarding, and service isolation.
 \end{itemize}
   
 
@@ -80,15 +72,13 @@
 \section*{Skills}
 \hrule
 
-\textbf{Programming languages:} Python, \cpp, Go, SQL, Bash
+\textbf{Programming languages:} Modern \cpp, Python, Go, SQL, Bash
 
-\textbf{Backend \& systems:} Linux, Docker, REST APIs, Networking (TCP, UDP, )
+\textbf{Systems \& networking:} Linux (user-space systems programming), TCP/IP, UDP, sockets, REST APIs, Docker, basic networking concepts (DNS, VPNs)
 
 \textbf{Developer tooling:} Git, GitHub, CI/CD (GitHub Actions), VS Code, Neovim, pytest
 
 \textbf{Data \& scientific computing:} NumPy, SciPy, PyTorch, MATLAB, Fortran
-
-\textbf{GUI \& desktop:} Qt, PyQt
 
 \section*{Selected research output}
 \hrule
@@ -104,14 +94,13 @@
 \hrule
 
 \begin{itemize}
-  \item Supplementary software engineering training (Boot.dev - Python, Go, Linux, SQL, Docker)
-  \item Supervised Master's students on Python-based image reconstruction and performed code reviews
+  \item Supplementary software engineering training (Boot.dev - Python, Go, Linux, SQL, Docker).
+  \item Supervised Master's students on Python-based image reconstruction and performed code reviews.
   \item Programmatic CAD modelling for 3D printing using Python.
 \end{itemize}
 
 
 References are available upon request.
-
 
 
 \end{document}
