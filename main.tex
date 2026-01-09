@@ -32,10 +32,15 @@
 \textbf{PhD:}
 
 \begin{itemize}
-  \item Designed and maintained end-to-end software systems in Python and \cpp supporting a custom MRI system, spanning data acquisition, processing, visualisation, and hardware control.
-  \item Developed data processing and image analysis pipelines in Python (NumPy, SciPy, PyTorch) and Matlab, handling large 3D imaging datasets.
-  \item Implemented hardware control and GUI software in \cpp to coordinate scanner motion via CANbus, including logging and safety checks.
-  \item Built interactive visualisation and segmentation tools to support non-technical users and downstream analysis.
+  % \item Designed and maintained end-to-end software systems in Python and \cpp supporting a custom MRI system, spanning data acquisition, processing, visualisation, and hardware control.
+  \item Owned and evolved a production-grade backend software stack (Python, C++) supporting a custom MRI platform, used daily by researchers and clinicians.
+  \item Designed data pipelines processing large 3D datasets with strict correctness, performance, and reproducibility requirements.
+  \item Built long-running services for hardware coordination, including state machines, fault handling, structured logging, and safety interlocks.
+  \item Made trade-offs between performance, complexity, and usability in collaboration with non-engineering stakeholders.
+  \item Experience reasoning about distributed systems concerns: partial failure, retries, idempotency, ordering, and observability in multi-process systems.
+  \item Reduced end-to-end data processing latency by \(\sim10\times\), transforming a batch workflow into an interactive system integrated directly into a user-facing analysis tool.
+  \item Replaced multiple manual pipeline stages with fully automated, fault-tolerant implementations, enabling first-in-human testing of a new MRI scanner with surgical correlation of results.
+
 
 \end{itemize}
 
